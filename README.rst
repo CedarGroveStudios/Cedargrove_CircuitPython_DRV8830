@@ -31,7 +31,10 @@ Please ensure all dependencies are available on the CircuitPython filesystem.
 This is easily achieved by downloading
 `the Adafruit library and driver bundle <https://circuitpython.org/libraries>`_
 or individual libraries can be installed using
-`circup <https://github.com/adafruit/circup>`_.Installing from PyPI
+`circup <https://github.com/adafruit/circup>`_.
+
+
+Installing from PyPI
 =====================
 .. note:: This library is not available on PyPI yet. Install documentation is included
    as a standard element.
@@ -79,10 +82,16 @@ Usage Example
 
 Documentation
 =============
-API documentation for this library can be found on `Read the Docs <https://circuitpython-drv8830.readthedocs.io/>`_.
+`NAU7802 CircuitPython Driver API Class Description <https://github.com/CedarGroveStudios/DRV8830_FeatherWing_PCB/blob/main/docs/pseudo%20readthedocs%20cedargrove_drv8830.pdf>`_
 
-For information on building library documentation, please check out
-`this guide <https://learn.adafruit.com/creating-and-sharing-a-circuitpython-library/sharing-our-docs-on-readthedocs#sphinx-5-1>`_.
+`CedarGrove DRV8830/INA271 FeatherWing <https://oshpark.com/shared_projects/L9cZfhJ8>`_
+
+`CedarGrove DRV8830/INA260 FeatherWing <https://oshpark.com/shared_projects/ETZ24BDm>`_
+
+.. image:: https://github.com/CedarGroveStudios/DRV8830_FeatherWing_PCB/blob/main/pcb_ina260/Motor_Tester_DRV8830_Wing_glam.png
+
+.. image:: https://github.com/CedarGroveStudios/DRV8830_FeatherWing_PCB/blob/main/pcb_ina271/Motor_Tester_DRV8830_Wing_glam.png
+
 
 Contributing
 ============
