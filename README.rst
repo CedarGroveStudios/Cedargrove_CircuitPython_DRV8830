@@ -87,12 +87,12 @@ Documentation
 
 `CedarGrove DRV8830/INA260 FeatherWing <https://oshpark.com/shared_projects/ETZ24BDm>`_
 
-.. image:: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/blob/media/Motor_Tester_DRV8830-INA260_Wing_glam.png
+.. image:: https://github.com/CedarGroveStudios/CircuitPython_DRV8830/blob/master/media/Motor_Tester_DRV8830-INA260_Wing_glam.png
 
 
 `CedarGrove DRV8830/INA271 FeatherWing <https://oshpark.com/shared_projects/L9cZfhJ8>`_
 
-.. image:: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/blob/media/Motor_Tester_DRV8830-INA271_Wing_glam.png
+.. image:: https://github.com/CedarGroveStudios/CircuitPython_DRV8830/blob/master/media/Motor_Tester_DRV8830-INA271_Wing_glam.png
 
 
 Contributing
