@@ -82,17 +82,17 @@ Usage Example
 
 Documentation
 =============
-`NAU7802 CircuitPython Driver API Class Description <https://github.com/CedarGroveStudios/DRV8830_FeatherWing_PCB/blob/main/docs/pseudo%20readthedocs%20cedargrove_drv8830.pdf>`_
+`NAU7802 CircuitPython Driver API Class Description <https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/blob/media/pseudo%20readthedocs%20cedargrove_drv8830.pdf>`_
 
 
 `CedarGrove DRV8830/INA260 FeatherWing <https://oshpark.com/shared_projects/ETZ24BDm>`_
 
-.. image:: https://github.com/CedarGroveStudios/DRV8830_FeatherWing_PCB/blob/main/pcb_ina260/Motor_Tester_DRV8830_Wing_glam.png
+.. image:: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/blob/media/Motor_Tester_DRV8830_Wing_glam.png
 
 
 `CedarGrove DRV8830/INA271 FeatherWing <https://oshpark.com/shared_projects/L9cZfhJ8>`_
 
-.. image:: https://github.com/CedarGroveStudios/DRV8830_FeatherWing_PCB/blob/main/pcb_ina271/Motor_Tester_DRV8830_Wing_glam.png
+.. image:: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/blob/media/Motor_Tester_DRV8830_Wing_glam.png
 
 
 Contributing
