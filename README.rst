@@ -36,8 +36,7 @@ or individual libraries can be installed using
 
 Installing from PyPI
 =====================
-.. note:: This library is not available on PyPI yet. Install documentation is included
-   as a standard element.
+.. note:: This library is not available on PyPI.
 
 
 Installing to a Connected CircuitPython Device with Circup
