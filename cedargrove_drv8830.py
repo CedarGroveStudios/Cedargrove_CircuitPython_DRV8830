@@ -1,37 +1,97 @@
-# SPDX-FileCopyrightText: 2017 Scott Shawcroft, written for Adafruit Industries
-# SPDX-FileCopyrightText: Copyright (c) 2022 JG for Cedar Grove Maker Studios
-#
-# SPDX-License-Identifier: MIT
-"""
-`cedargrove_drv8830`
-================================================================================
+Introduction
+============
+
+
+
+
+.. image:: https://img.shields.io/discord/327254708534116352.svg
+    :target: https://adafru.it/discord
+    :alt: Discord
+
+
+.. image:: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/workflows/Build%20CI/badge.svg
+    :target: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/actions
+    :alt: Build Status
+
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    :alt: Code Style: Black
 
 A cCircuitPython driver for the DRV8830 DC motor controller.
 
 
-* Author(s): JG
+Dependencies
+=============
+This driver depends on:
 
-Implementation Notes
---------------------
+* `Adafruit CircuitPython <https://github.com/adafruit/circuitpython>`_
 
-**Hardware:**
+Please ensure all dependencies are available on the CircuitPython filesystem.
+This is easily achieved by downloading
+`the Adafruit library and driver bundle <https://circuitpython.org/libraries>`_
+or individual libraries can be installed using
+`circup <https://github.com/adafruit/circup>`_.
 
-.. todo:: Add links to any specific hardware product page(s), or category page(s).
-  Use unordered list & hyperlink rST inline format: "* `Link Text <url>`_"
 
-**Software and Dependencies:**
+Installing to a Connected CircuitPython Device with Circup
+==========================================================
 
-* Adafruit CircuitPython firmware for the supported boards:
-  https://circuitpython.org/downloads
+Make sure that you have ``circup`` installed in your Python environment.
+Install it with the following command if necessary:
 
-.. todo:: Uncomment or remove the Bus Device and/or the Register library dependencies
-  based on the library's use of either.
+.. code-block:: shell
 
-# * Adafruit's Bus Device library: https://github.com/adafruit/Adafruit_CircuitPython_BusDevice
-# * Adafruit's Register library: https://github.com/adafruit/Adafruit_CircuitPython_Register
-"""
+    pip3 install circup
 
-# imports
+With ``circup`` installed and your CircuitPython device connected use the
+following command to install:
 
-__version__ = "0.0.0+auto.0"
-__repo__ = "https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830.git"
+.. code-block:: shell
+
+    circup install drv8830
+
+Or the following command to update an existing version:
+
+.. code-block:: shell
+
+    circup update
+
+Usage Example
+=============
+
+.. code-block:: python
+
+    import time
+    import board
+    import cedargrove_drv8830
+
+    # Instantiate motor controller; clear any faults
+    motor = cedargrove_drv8830.DRV8830(board.I2C())
+    motor.clear_faults()
+
+    motor.throttle = 1.0  # Full speed forward
+    time.sleep(1)
+    motor.throttle = None  # Coast to a stop
+
+Documentation
+=============
+`DRV8830 CircuitPython Driver API Class Description <https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/blob/media/pseudo%20readthedocs%20cedargrove_drv8830.pdf>`_
+
+
+`CedarGrove DRV8830/INA260 FeatherWing <https://oshpark.com/shared_projects/ETZ24BDm>`_
+
+.. image:: https://github.com/CedarGroveStudios/CircuitPython_DRV8830/blob/master/media/Motor_Tester_DRV8830-INA260_Wing_glam.png
+
+
+`CedarGrove DRV8830/INA271 FeatherWing <https://oshpark.com/shared_projects/L9cZfhJ8>`_
+
+.. image:: https://github.com/CedarGroveStudios/CircuitPython_DRV8830/blob/master/media/Motor_Tester_DRV8830-INA271_Wing_glam.png
+
+
+Contributing
+============
+
+Contributions are welcome! Please read our `Code of Conduct
+<https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830/blob/HEAD/CODE_OF_CONDUCT.md>`_
+before contributing to help this project stay welcoming.
