@@ -49,7 +49,7 @@ following command to install:
 
 .. code-block:: shell
 
-    circup install drv8830
+    circup install cedargrove_drv8830
 
 Or the following command to update an existing version:
 
