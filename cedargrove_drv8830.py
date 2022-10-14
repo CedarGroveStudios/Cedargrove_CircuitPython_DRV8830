@@ -28,7 +28,7 @@ from adafruit_register.i2c_bit import RWBit
 from adafruit_register.i2c_bit import ROBit
 
 __version__ = "0.0.0+auto.0"
-__repo__ = "https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_DRV8830.git"
+__repo__ = "https://github.com/CedarGroveStudios/CircuitPython_DRV8830.git"
 
 
 # DEVICE REGISTER MAP
